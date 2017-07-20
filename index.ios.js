@@ -23,7 +23,10 @@ export default class SearchBarDemo extends Component {
                        onPressCancel={()=>{
                            Alert.alert('onPressCancel')
                        }}
+                       containerColor={'rgb(201,201,206)'}
             />
+
+          <View style={{height:10}}/>
 
           <SearchBar searchAction={()=>{
               Alert.alert('searchAction')
@@ -34,7 +37,7 @@ export default class SearchBarDemo extends Component {
                      borderRadius={6}
                      text={'Search'}
                      rightText={'Cancel'}
-                     containerColor={'blue'}
+                     containerColor={'rgb(201,201,206)'}
           />
       </View>
     );
