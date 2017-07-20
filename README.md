@@ -18,6 +18,5 @@ The highly customized search bar for React Native
                     containerColor={'blue'}
 />
 ```
--
 ## License
 MIT
