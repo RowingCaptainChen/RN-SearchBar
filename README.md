@@ -1,11 +1,11 @@
 # ReactNative-SearchBar
----
-The highly customized search bar for React Native
----
 
----
-###Usage
-`
+The highly customized search bar for React Native
+
+![image](https://github.com/RowingCaptainChen/RN-SearchBar/blob/master/demoPic.png)
+
+### Usage
+```javaScript
 <SearchBar searchAction={()=>{
                     Alert.alert('searchAction')
                 }}
@@ -17,4 +17,4 @@ The highly customized search bar for React Native
                     rightText={'Cancel'}
                     containerColor={'blue'}
 />
-`
+```
